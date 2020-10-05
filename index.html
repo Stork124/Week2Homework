@@ -6,6 +6,7 @@
    
     <title>Home/About</title>
 
+    <link rel="stylesheet" href="portfolio.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -14,11 +15,11 @@
 </head>
 
 <body>
-    <div class="row"> 
-        <h1 class="justify-content-start col-lg">Nicholas Rogers</h1>
+    <div class="container"> 
+        <h1 class="justify-content-start col-4 yourName">Nicholas Rogers</h1>
         <!-- NavBar / Outline refferenced from bootstrap with links to respective pages -->
-        <!--<div class="col-lg"></div><-->
-        <nav class="nav justify-content-end col-lg">
+        
+        <nav class="nav justify-content-end col-lg col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <a class="nav-link active" href="index.html">Home/About</a>
             <a class="nav-link" href="portfolio.html">Portfolio</a>
             <a class="nav-link" href="contact.html">Contact</a>
@@ -31,13 +32,20 @@
 
     <br/>
 
-    <!--About Me Description Using Card with text/header/image refferenced from Bootstrap-->
-    <div class="card">
-        <img class="card-img-top" src="snowyHallway.jpg" alt="Snowy-Hallway"/>
-        <div class="card-body">
-          This is some text within a card body.
+    <!--About Me Description incorporating bootsrap grids-->
+    
+    <div class="container">
+        <div class="row">
+        <div>
+            <img src="Desktop/Week2HomeWork/htmlFiles/snowyHallway.jpg" alt="snowyHallway"
         </div>
-      </div>
+          
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            My name is Nicholas Rogers and I am brand new to the world of web develoment. I graduated from the University of New Hampshire in 2016 and then made the move to Winter Park Colorado where I had been living the ski bum lifestyle for the past three years on and off. When the corona virus pandemic began to shut dwon the country I made the decision to move back to NH and after some thought and consideration I made thte decision to enroll in th UNH coding bootcamp for Full Stack web development and am now in the very beginning of my journey to become a full time web developer.
+        </div>
+          
+        </div>
+    </div>
 </body>
 
 </html>

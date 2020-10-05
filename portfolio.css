@@ -7,3 +7,15 @@ img {
     width: 100%;
     height: auto;
 }
+
+h1 {
+    margin: 5px;
+}
+
+.yourName {
+    background-color: lightblue;
+}
+
+body {
+    background-color: rgb(82, 80, 80);
+}
